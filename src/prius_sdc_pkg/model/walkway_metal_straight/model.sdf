@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="walkway_metal_straight">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <pose>0 0.762 0.076075 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0755 0.0625 0.00001</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+         <geometry>
+           <mesh>
+             <scale>0.1000 0.0500 0.0001</scale>
+             <uri>model://walkway_metal_straight/meshes/mesh.obj</uri>
+           </mesh>
+         </geometry>
+       </visual>
+    </link>
+  </model>
+</sdf>
